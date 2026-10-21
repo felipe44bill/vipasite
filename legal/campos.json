@@ -1,0 +1,9 @@
+{
+  "_ajuda": "Preencha todos os campos e rode node site/build.mjs: as paginas /privacidade, /termos e /excluir-conta so entram no site quando nenhum campo esta vazio. Nao ha texto juridico revisado aqui: peca a um advogado para ler antes de publicar.",
+  "responsavel": "",
+  "cidade": "",
+  "email": "",
+  "data": "",
+  "regra_conta_aluno": "",
+  "prazo_resposta": "15 dias"
+}

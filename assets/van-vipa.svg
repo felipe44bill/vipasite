@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 250" fill="none">
+  <defs>
+    <linearGradient id="vv-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset=".6" stop-color="#FFFCFA"/>
+      <stop offset="1" stop-color="#F3E9E2"/>
+    </linearGradient>
+    <linearGradient id="vv-side" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7A2E0A" stop-opacity=".07"/>
+      <stop offset=".14" stop-color="#7A2E0A" stop-opacity="0"/>
+      <stop offset=".86" stop-color="#7A2E0A" stop-opacity="0"/>
+      <stop offset="1" stop-color="#7A2E0A" stop-opacity=".06"/>
+    </linearGradient>
+    <linearGradient id="vv-stripe" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF6A26"/>
+      <stop offset="1" stop-color="#E8440F"/>
+    </linearGradient>
+    <linearGradient id="vv-glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3B4C61"/>
+      <stop offset="1" stop-color="#1B2530"/>
+    </linearGradient>
+    <radialGradient id="vv-hub" cx=".38" cy=".32" r=".75">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#D6CEC7"/>
+    </radialGradient>
+    <radialGradient id="vv-tire" cx=".4" cy=".3" r=".8">
+      <stop offset="0" stop-color="#3A3A40"/>
+      <stop offset="1" stop-color="#1E1E22"/>
+    </radialGradient>
+    <radialGradient id="vv-shadow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#5A1E00" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#5A1E00" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="vv-shape">
+      <path d="M44 182V90c0-22 17-40 40-40h160c14 0 25 6 33 17l38 52c4 5 10 9 17 10l16 3c19 4 30 16 30 34v14c0 11-8 18-19 18H60c-10 0-16-6-16-16z"/>
+    </clipPath>
+  </defs>
+
+  <ellipse cx="212" cy="233" rx="186" ry="13" fill="url(#vv-shadow)"/>
+
+  <g class="vv-body">
+    <path d="M44 182V90c0-22 17-40 40-40h160c14 0 25 6 33 17l38 52c4 5 10 9 17 10l16 3c19 4 30 16 30 34v14c0 11-8 18-19 18H60c-10 0-16-6-16-16z" fill="url(#vv-body)"/>
+    <g clip-path="url(#vv-shape)">
+      <rect x="34" y="166" width="370" height="40" fill="#F7EFE9"/>
+      <rect x="34" y="166" width="370" height="1.5" fill="#EADCD2"/>
+      <rect x="34" y="128" width="370" height="25" fill="url(#vv-stripe)"/>
+      <rect x="34" y="128" width="370" height="3" fill="#FFFFFF" opacity=".32"/>
+      <rect x="34" y="150.5" width="370" height="2.5" fill="#7A2E0A" opacity=".14"/>
+      <rect x="34" y="40" width="370" height="170" fill="url(#vv-side)"/>
+      <path d="M84 53h160c10 0 18 4 24 11" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity=".9"/>
+    </g>
+    <text x="170" y="146.5" fill="#FFFFFF" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="800" letter-spacing="2" text-anchor="middle">VIPA</text>
+
+    <!-- janelas -->
+    <rect x="60" y="68" width="62" height="46" rx="12" fill="url(#vv-glass)"/>
+    <rect x="132" y="68" width="62" height="46" rx="12" fill="url(#vv-glass)"/>
+    <rect x="204" y="68" width="42" height="46" rx="12" fill="url(#vv-glass)"/>
+    <path d="M258 80c0-7 5-12 12-12h7c5 0 9 2 12 6l23 32c3 4 0 8-4 8h-38c-7 0-12-5-12-12z" fill="url(#vv-glass)"/>
+    <g fill="#FFFFFF" opacity=".17">
+      <path d="M73 68h17l-27 46h-3v-12z"/>
+      <path d="M145 68h17l-27 46h-3v-12z"/>
+      <path d="M216 68h14l-27 46h-1v-14z"/>
+      <path d="M273 68h13l-28 46h-0v-12z"/>
+    </g>
+
+    <!-- portas e macanetas -->
+    <path d="M199 58v136M252 60v134" stroke="#EADDD4" stroke-width="2" stroke-linecap="round"/>
+    <rect x="180" y="158" width="14" height="5" rx="2.5" fill="#CDBDB2"/>
+    <rect x="260" y="158" width="14" height="5" rx="2.5" fill="#CDBDB2"/>
+
+    <!-- retrovisor -->
+    <path d="M303 108h9c5 0 8 3 8 7v7c0 4-3 6-6 6h-6c-4 0-6-3-6-6z" fill="#FF5A1F"/>
+    <path d="M303 108h9c5 0 8 3 8 7" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" opacity=".5"/>
+
+    <!-- farol e lanterna -->
+    <ellipse cx="370" cy="147" rx="9" ry="8" fill="#FFF3C8" stroke="#EBDDC6" stroke-width="1.5"/>
+    <circle cx="367" cy="144" r="2.6" fill="#FFFFFF"/>
+    <rect x="44" y="132" width="7" height="30" rx="3.5" fill="#E5484D"/>
+
+    <!-- para-choques -->
+    <rect x="350" y="188" width="48" height="15" rx="7.5" fill="#3A3C42"/>
+    <rect x="30" y="188" width="46" height="15" rx="7.5" fill="#3A3C42"/>
+  </g>
+
+  <!-- caixas de roda -->
+  <path d="M64 200a46 46 0 0 1 92 0z" fill="#2E2926"/>
+  <path d="M268 200a46 46 0 0 1 92 0z" fill="#2E2926"/>
+
+  <!-- rodas -->
+  <g class="vv-wheel">
+    <circle cx="110" cy="200" r="34" fill="url(#vv-tire)"/>
+    <circle cx="110" cy="200" r="19" fill="url(#vv-hub)"/>
+    <circle cx="110" cy="200" r="7.5" fill="#FF5A1F"/>
+    <g fill="#B5ABA3">
+      <circle cx="110" cy="188.5" r="2.3"/><circle cx="120.9" cy="196.4" r="2.3"/><circle cx="116.8" cy="209.3" r="2.3"/><circle cx="103.2" cy="209.3" r="2.3"/><circle cx="99.1" cy="196.4" r="2.3"/>
+    </g>
+  </g>
+  <g class="vv-wheel">
+    <circle cx="314" cy="200" r="34" fill="url(#vv-tire)"/>
+    <circle cx="314" cy="200" r="19" fill="url(#vv-hub)"/>
+    <circle cx="314" cy="200" r="7.5" fill="#FF5A1F"/>
+    <g fill="#B5ABA3">
+      <circle cx="314" cy="188.5" r="2.3"/><circle cx="324.9" cy="196.4" r="2.3"/><circle cx="320.8" cy="209.3" r="2.3"/><circle cx="307.2" cy="209.3" r="2.3"/><circle cx="303.1" cy="196.4" r="2.3"/>
+    </g>
+  </g>
+</svg>

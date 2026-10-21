@@ -1,0 +1,552 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-24T11:49:23.632Z",
+  "title": "Design System: VIPA (site)",
+  "extensions": {
+    "colorMeta": {
+      "orange": {
+        "role": "primary",
+        "displayName": "Laranja VIPA",
+        "canonical": "#FF5A1F",
+        "tonalRamp": [
+          "#1B0300",
+          "#461000",
+          "#762000",
+          "#A83303",
+          "#DF4603",
+          "#FF764C",
+          "#FFB49E",
+          "#FEE9E3"
+        ]
+      },
+      "orange-a": {
+        "role": "primary",
+        "displayName": "Degradê hero, início",
+        "canonical": "#FF7A2E",
+        "tonalRamp": [
+          "#190500",
+          "#401701",
+          "#6D2C02",
+          "#9D4203",
+          "#D05905",
+          "#FE792D",
+          "#FEB694",
+          "#FFEAE0"
+        ]
+      },
+      "orange-b": {
+        "role": "primary",
+        "displayName": "Degradê hero, fim",
+        "canonical": "#EF4A18",
+        "tonalRamp": [
+          "#1C0300",
+          "#470D00",
+          "#771D01",
+          "#AC2D01",
+          "#E33E01",
+          "#FF7652",
+          "#FEB4A0",
+          "#FFE9E3"
+        ]
+      },
+      "orange-deep": {
+        "role": "primary",
+        "displayName": "Laranja Tijolo",
+        "canonical": "#C2350D",
+        "tonalRamp": [
+          "#1D0200",
+          "#480B00",
+          "#791A00",
+          "#AE2A01",
+          "#DA4C2A",
+          "#FF7554",
+          "#FFB4A1",
+          "#FFE9E3"
+        ]
+      },
+      "soft": {
+        "role": "primary",
+        "displayName": "Pêssego",
+        "canonical": "#FFF1EA",
+        "tonalRamp": [
+          "#110905",
+          "#2D231E",
+          "#4A3F3A",
+          "#6A5E59",
+          "#8C7F79",
+          "#AFA29B",
+          "#D3C6BF",
+          "#F9EBE4"
+        ]
+      },
+      "light": {
+        "role": "primary",
+        "displayName": "Creme",
+        "canonical": "#FFF7F3",
+        "tonalRamp": [
+          "#0F0A08",
+          "#292421",
+          "#47403D",
+          "#66605C",
+          "#88817D",
+          "#ABA3A0",
+          "#CFC7C3",
+          "#F5EDE9"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "Branco",
+        "canonical": "#FFFFFF",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#A5A5A5",
+          "#C9C9C9",
+          "#EEEEEE"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Tinta",
+        "canonical": "#111113",
+        "tonalRamp": [
+          "#0B0B0D",
+          "#252527",
+          "#424244",
+          "#616163",
+          "#828285",
+          "#A5A5A7",
+          "#C9C9CC",
+          "#EEEEF1"
+        ]
+      },
+      "support": {
+        "role": "neutral",
+        "displayName": "Cinza de Apoio",
+        "canonical": "#5E5E63",
+        "tonalRamp": [
+          "#0B0B0E",
+          "#252529",
+          "#414146",
+          "#616166",
+          "#828287",
+          "#A4A4AA",
+          "#C8C8CE",
+          "#EEEEF4"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Cinza Legenda",
+        "canonical": "#6E6E73",
+        "tonalRamp": [
+          "#0B0B0E",
+          "#252529",
+          "#414146",
+          "#616165",
+          "#828287",
+          "#A4A4AA",
+          "#C8C8CE",
+          "#EEEEF4"
+        ]
+      },
+      "mute-bg": {
+        "role": "neutral",
+        "displayName": "Cinza de Pill",
+        "canonical": "#F1F1F3",
+        "tonalRamp": [
+          "#0B0B0C",
+          "#252526",
+          "#424243",
+          "#616163",
+          "#828284",
+          "#A5A5A7",
+          "#C9C9CB",
+          "#EEEEF0"
+        ]
+      },
+      "mute-strong": {
+        "role": "neutral",
+        "displayName": "Cinza de Pill Pressionada",
+        "canonical": "#E7E7EA",
+        "tonalRamp": [
+          "#0B0B0D",
+          "#252527",
+          "#424244",
+          "#616163",
+          "#828285",
+          "#A5A5A7",
+          "#C9C9CC",
+          "#EEEEF1"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Borda",
+        "canonical": "#E4E4E7",
+        "tonalRamp": [
+          "#0B0B0D",
+          "#252527",
+          "#424244",
+          "#616163",
+          "#828285",
+          "#A5A5A7",
+          "#C9C9CC",
+          "#EEEEF1"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Fio",
+        "canonical": "#EDEDF0",
+        "tonalRamp": [
+          "#0B0B0D",
+          "#252527",
+          "#424244",
+          "#616163",
+          "#828285",
+          "#A5A5A7",
+          "#C9C9CC",
+          "#EEEEF1"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Chão de Mapa",
+        "canonical": "#F3F3F5",
+        "tonalRamp": [
+          "#0B0B0C",
+          "#252526",
+          "#424243",
+          "#616163",
+          "#828284",
+          "#A5A5A7",
+          "#C9C9CB",
+          "#EEEEF0"
+        ]
+      },
+      "green": {
+        "role": "semantic",
+        "displayName": "Verde",
+        "canonical": "#22A55B",
+        "tonalRamp": [
+          "#001004",
+          "#002E14",
+          "#035027",
+          "#04753C",
+          "#0D9C52",
+          "#47C074",
+          "#70E697",
+          "#C6FFD5"
+        ]
+      },
+      "green-ink": {
+        "role": "semantic",
+        "displayName": "Verde Tinta",
+        "canonical": "#178043",
+        "tonalRamp": [
+          "#001004",
+          "#012E13",
+          "#025026",
+          "#03753A",
+          "#389859",
+          "#5EBC7B",
+          "#83E29E",
+          "#C7FFD4"
+        ]
+      },
+      "red": {
+        "role": "semantic",
+        "displayName": "Vermelho",
+        "canonical": "#E5484D",
+        "tonalRamp": [
+          "#1E0002",
+          "#4C0109",
+          "#800216",
+          "#B60D26",
+          "#DE4148",
+          "#FF7270",
+          "#FEB3AE",
+          "#FEE9E7"
+        ]
+      },
+      "red-ink": {
+        "role": "semantic",
+        "displayName": "Vermelho Tinta",
+        "canonical": "#C9303A",
+        "tonalRamp": [
+          "#1F0002",
+          "#4D0009",
+          "#800016",
+          "#B41429",
+          "#DD444A",
+          "#FF7271",
+          "#FFB2AE",
+          "#FFE8E7"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Título de abertura e de fechamento."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Título de capítulo, até 15em, balanceado."
+      },
+      "headline-sm": {
+        "displayName": "Headline pequeno",
+        "purpose": "Subtítulo dentro de capítulo."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Termo de lista com fio e passo do palco da rota."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Apoio do título, em Cinza de Apoio, até 34em."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Texto corrido e respostas, até 40em."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Rótulo de exemplo sob as telas do app."
+      },
+      "numeral-billboard": {
+        "displayName": "Numeral de outdoor",
+        "purpose": "Horário do card de destaque: o 46/700 do app ampliado, tabular."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.33,1,.68,1)",
+        "purpose": "easeOutCubic do app. Toda entrada e troca de estado."
+      },
+      {
+        "name": "quick",
+        "value": "140ms",
+        "purpose": "Herdado. Resposta a toque: encolher ao apertar."
+      },
+      {
+        "name": "base",
+        "value": "240ms",
+        "purpose": "Herdado. Cor, hover, troca de aba, item chegando, seta de acordeão."
+      },
+      {
+        "name": "slow",
+        "value": "320ms",
+        "purpose": "Herdado. Troca de face do card de destaque, abertura de acordeão, passo do palco."
+      },
+      {
+        "name": "press",
+        "value": "scale(.97) em 140ms",
+        "purpose": "Botão, pill e botão de escolha ao apertar. No app, cartão encolhe 1,5%."
+      },
+      {
+        "name": "rise-primeira-tela",
+        "value": "720ms, translateY(18px) → 0, atrasos 0/120/220ms",
+        "purpose": "Entrada da primeira tela, uma vez, no carregamento."
+      },
+      {
+        "name": "digitos",
+        "value": "760ms por dígito, 45ms entre eles, após 480ms",
+        "purpose": "Horário do card de destaque subindo dígito a dígito."
+      },
+      {
+        "name": "troca-de-face",
+        "value": "320ms, opacity + blur(6px) + translateY(12px)",
+        "purpose": "Uma face do card sai enquanto a outra entra; visibility segue depois."
+      },
+      {
+        "name": "chegada",
+        "value": "240ms, translateY(14px) → 0",
+        "purpose": "Mensagem, aviso ou painel chegando numa tela do app."
+      },
+      {
+        "name": "percurso",
+        "value": "1100 a 1400ms (gráfico, contagem); 6200ms (van no minimapa)",
+        "purpose": "Algo percorrendo um caminho. Único lugar de tempo longo fora da primeira tela."
+      },
+      {
+        "name": "palco-da-rota",
+        "value": "320vh (280vh até 860px), quadro preso sob a barra",
+        "purpose": "Rolagem conduz marcadores, desenho da rota e a van. Solto e no quadro final com movimento reduzido."
+      },
+      {
+        "name": "reduzido",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "Sem animação; estado final entregue; palco não prende; transições em 1ms."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "barra-compacta",
+        "value": "760px"
+      },
+      {
+        "name": "uma-coluna",
+        "value": "860px"
+      },
+      {
+        "name": "abertura-dividida",
+        "value": "1240px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botão primário",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ação principal em tinta, herdada do app. Hover só com ponteiro fino; encolhe 3% ao apertar.",
+      "html": "<button class=\"ds-btn\" type=\"button\">Ver o plano</button> <button class=\"ds-btn ds-btn--sm\" type=\"button\">Primeiro mês grátis</button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; height: 54px; padding: 0 26px; border: 0; border-radius: 12px; background: var(--ink, #111113); color: var(--white, #FFFFFF); font: 600 16px/1 var(--font, Inter, ui-sans-serif, system-ui, sans-serif); letter-spacing: -0.01em; cursor: pointer; transition: transform 140ms cubic-bezier(.33,1,.68,1), background-color 240ms cubic-bezier(.33,1,.68,1); } .ds-btn--sm { height: 42px; padding: 0 18px; font-size: 15px; } @media (hover: hover) and (pointer: fine) { .ds-btn:hover { background: #2B2B30; } } .ds-btn:active { transform: scale(.97); } .ds-btn:focus-visible { outline: 2.5px solid var(--orange, #FF5A1F); outline-offset: 3px; border-radius: 12px; }"
+    },
+    {
+      "name": "Botão no destaque",
+      "kind": "button",
+      "refersTo": "button-on-hero",
+      "description": "Botão branco sobre o degradê hero, em medida fluida; anel de foco branco.",
+      "html": "<div class=\"ds-onhero\"><button class=\"ds-btn-hero\" type=\"button\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M8 6.8v10.4a1 1 0 0 0 1.53.85l8.2-5.2a1 1 0 0 0 0-1.7l-8.2-5.2A1 1 0 0 0 8 6.8z\" fill=\"currentColor\"/></svg>Iniciar Rota</button></div>",
+      "css": ".ds-onhero { padding: 28px; border-radius: 18px; background: linear-gradient(135deg, var(--orange-a, #FF7A2E), var(--orange-b, #EF4A18)); } .ds-btn-hero { display: inline-flex; align-items: center; gap: 10px; height: clamp(54px, 4.8vw, 64px); padding: 0 clamp(24px, 2.6vw, 34px); border: 0; border-radius: clamp(12px, 1.2vw, 16px); background: var(--white, #FFFFFF); color: var(--ink, #111113); font: 600 clamp(17px, 1.5vw, 20px)/1 var(--font, Inter, ui-sans-serif, system-ui, sans-serif); cursor: pointer; transition: transform 140ms cubic-bezier(.33,1,.68,1), background-color 240ms cubic-bezier(.33,1,.68,1); } @media (hover: hover) and (pointer: fine) { .ds-btn-hero:hover { background: var(--light, #FFF7F3); } } .ds-btn-hero:active { transform: scale(.97); } .ds-btn-hero:focus-visible { outline: 2.5px solid var(--white, #FFFFFF); outline-offset: 3px; }"
+    },
+    {
+      "name": "Link sublinhado",
+      "kind": "button",
+      "refersTo": "link-underline",
+      "description": "Ação secundária ao lado do botão preto: sublinhado cinza que fica laranja no hover.",
+      "html": "<a class=\"ds-link\" href=\"#\"><span>Ver funcionando</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 5v14m0 0-6-6m6 6 6-6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a>",
+      "css": ".ds-link { display: inline-flex; align-items: center; gap: 6px; color: var(--ink, #111113); font: 600 16px/1.5 var(--font, Inter, ui-sans-serif, system-ui, sans-serif); text-decoration: none; } .ds-link > span { text-decoration: underline; text-decoration-thickness: 2px; text-decoration-color: var(--border, #E4E4E7); text-underline-offset: 7px; transition: text-decoration-color 240ms cubic-bezier(.33,1,.68,1); } @media (hover: hover) and (pointer: fine) { .ds-link:hover > span { text-decoration-color: var(--orange, #FF5A1F); } } .ds-link:focus-visible { outline: 2.5px solid var(--orange, #FF5A1F); outline-offset: 3px; } .ds-link:focus-visible { border-radius: 8px; }"
+    },
+    {
+      "name": "Pills (abas)",
+      "kind": "chip",
+      "refersTo": "pill",
+      "description": "Pill do app como aba de verdade: selecionada em tinta, as outras em cinza; hover e aperto do site.",
+      "html": "<div class=\"ds-pills\" role=\"tablist\"><button class=\"ds-pill\" role=\"tab\" aria-selected=\"true\" type=\"button\">Renda</button><button class=\"ds-pill\" role=\"tab\" aria-selected=\"false\" type=\"button\">Pagamentos</button><button class=\"ds-pill\" role=\"tab\" aria-selected=\"false\" type=\"button\">Gastos</button></div>",
+      "css": ".ds-pills { display: flex; flex-wrap: wrap; gap: 8px; } .ds-pill { height: 46px; padding: 0 20px; border: 0; border-radius: 999px; background: var(--mute-bg, #F1F1F3); color: var(--ink, #111113); font: 500 17px/1 var(--font, Inter, ui-sans-serif, system-ui, sans-serif); cursor: pointer; transition: background-color 240ms cubic-bezier(.33,1,.68,1), color 240ms cubic-bezier(.33,1,.68,1), transform 140ms cubic-bezier(.33,1,.68,1); } .ds-pill[aria-selected=\"true\"] { background: var(--ink, #111113); color: var(--white, #FFFFFF); } @media (hover: hover) and (pointer: fine) { .ds-pill:not([aria-selected=\"true\"]):hover { background: var(--mute-strong, #E7E7EA); } } .ds-pill:active { transform: scale(.97); } .ds-pill:focus-visible { outline: 2.5px solid var(--orange, #FF5A1F); outline-offset: 3px; }"
+    },
+    {
+      "name": "Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Condição curta junto de um título de card, em Laranja Tijolo sobre Pêssego.",
+      "html": "<span class=\"ds-chip\">Primeiro mês grátis</span>",
+      "css": ".ds-chip { display: inline-flex; align-items: center; height: 32px; padding: 0 14px; border-radius: 999px; background: var(--soft, #FFF1EA); color: var(--orange-deep, #C2350D); font: 600 14px/1 var(--font, Inter, ui-sans-serif, system-ui, sans-serif); }"
+    },
+    {
+      "name": "Barra de navegação",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Barra branca presa, 64px: marca laranja, links com traço laranja no hover, botão preto pequeno; fio só depois de rolar.",
+      "html": "<header class=\"ds-nav is-scrolled\"><a class=\"ds-nav__brand\" href=\"#\">VIPA</a><nav class=\"ds-nav__links\"><a href=\"#\">Rota</a><a href=\"#\">Família</a><a href=\"#\">Financeiro</a><a href=\"#\">Preço</a></nav><a class=\"ds-nav__btn\" href=\"#\">Primeiro mês grátis</a></header>",
+      "css": ".ds-nav { display: flex; align-items: center; gap: 32px; height: 64px; padding: 0 24px; background: var(--white, #FFFFFF); border-bottom: 1px solid transparent; font-family: var(--font, Inter, ui-sans-serif, system-ui, sans-serif); transition: border-color 240ms cubic-bezier(.33,1,.68,1); } .ds-nav.is-scrolled { border-bottom-color: var(--line, #EDEDF0); } .ds-nav__brand { color: var(--orange, #FF5A1F); font-size: 22px; font-weight: 700; letter-spacing: -0.02em; text-decoration: none; } .ds-nav__links { display: flex; gap: 28px; margin-left: auto; } .ds-nav__links a { position: relative; padding-block: 6px; color: #45454A; font-size: 15px; font-weight: 500; text-decoration: none; transition: color 240ms cubic-bezier(.33,1,.68,1); } .ds-nav__links a::after { content: \"\"; position: absolute; left: 0; right: 0; bottom: 0; height: 2px; border-radius: 2px; background: var(--orange, #FF5A1F); transform: scaleX(0); transform-origin: left; transition: transform 240ms cubic-bezier(.33,1,.68,1); } @media (hover: hover) and (pointer: fine) { .ds-nav__links a:hover { color: var(--ink, #111113); } .ds-nav__links a:hover::after { transform: scaleX(1); } } .ds-nav__links a:focus-visible, .ds-nav__brand:focus-visible { outline: 2.5px solid var(--orange, #FF5A1F); outline-offset: 3px; border-radius: 8px; } .ds-nav__btn { display: inline-flex; align-items: center; height: 42px; padding: 0 18px; border-radius: 12px; background: var(--ink, #111113); color: var(--white, #FFFFFF); font-size: 15px; font-weight: 600; text-decoration: none; transition: transform 140ms cubic-bezier(.33,1,.68,1); } .ds-nav__btn:active { transform: scale(.97); } @media (max-width: 760px) { .ds-nav__links { display: none; } .ds-nav__btn { margin-left: auto; } }"
+    },
+    {
+      "name": "Card de destaque em escala de outdoor",
+      "kind": "card",
+      "refersTo": "card-billboard",
+      "description": "O VipaHeroCard do app na largura do conteúdo: degradê, raio fluido, horário no numeral de outdoor, botão branco; a arte (van VIPA em vetor, anéis e estrada sob as rodas) à direita.",
+      "html": "<div class=\"ds-bb\"><div class=\"ds-bb__face\"><p class=\"ds-bb__title\">Próxima Rota <svg width=\"1em\" height=\"1em\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3.5 5.5 19.6a.6.6 0 0 0 .86.73L12 17.2l5.64 3.13a.6.6 0 0 0 .86-.73z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/></svg></p><p class=\"ds-bb__label\">Horário Recomendado</p><p class=\"ds-bb__time\">06:10</p><button class=\"ds-bb__btn\" type=\"button\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M8 6.8v10.4a1 1 0 0 0 1.53.85l8.2-5.2a1 1 0 0 0 0-1.7l-8.2-5.2A1 1 0 0 0 8 6.8z\" fill=\"currentColor\"/></svg>Iniciar Rota</button></div><div class=\"ds-bb__art\" aria-hidden=\"true\"><span class=\"ds-bb__halo\"></span></div></div>",
+      "css": ".ds-bb { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); overflow: hidden; border-radius: clamp(22px, 3vw, 40px); background: linear-gradient(135deg, var(--orange-a, #FF7A2E), var(--orange-b, #EF4A18)); color: var(--white, #FFFFFF); font-family: var(--font, Inter, ui-sans-serif, system-ui, sans-serif); } .ds-bb__face { display: flex; flex-direction: column; align-items: flex-start; padding: clamp(26px, 3vw, 40px) clamp(26px, 4.2vw, 56px); } .ds-bb p { margin: 0; } .ds-bb__title { display: flex; align-items: center; gap: .28em; font-size: clamp(28px, 3.8vw, 52px); font-weight: 700; letter-spacing: -0.025em; line-height: 1.1; } .ds-bb__label { margin-top: clamp(20px, 2vw, 26px); font-size: clamp(16px, 1.7vw, 24px); font-weight: 500; } .ds-bb__time { font-size: clamp(92px, 13.4vw, 196px); font-weight: 700; letter-spacing: -0.04em; line-height: 1; font-variant-numeric: tabular-nums; } .ds-bb__btn { display: inline-flex; align-items: center; gap: 10px; margin-top: clamp(18px, 1.6vw, 22px); height: clamp(54px, 4.8vw, 64px); padding: 0 clamp(24px, 2.6vw, 34px); border: 0; border-radius: clamp(12px, 1.2vw, 16px); background: var(--white, #FFFFFF); color: var(--ink, #111113); font: 600 clamp(17px, 1.5vw, 20px)/1 var(--font, Inter, ui-sans-serif, system-ui, sans-serif); cursor: pointer; transition: transform 140ms cubic-bezier(.33,1,.68,1), background-color 240ms cubic-bezier(.33,1,.68,1); } @media (hover: hover) and (pointer: fine) { .ds-bb__btn:hover { background: var(--light, #FFF7F3); } } .ds-bb__btn:active { transform: scale(.97); } .ds-bb__btn:focus-visible { outline: 2.5px solid var(--white, #FFFFFF); outline-offset: 3px; } .ds-bb__art { position: relative; display: grid; place-items: center; min-height: 260px; } .ds-bb__halo { width: min(84%, 440px); aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle, rgba(255,255,255,.24) 0 36%, rgba(255,255,255,.1) 36% 60%, transparent 60%); } @media (max-width: 860px) { .ds-bb { grid-template-columns: 1fr; } .ds-bb__art { display: none; } }"
+    },
+    {
+      "name": "Tela do app em escala de vitrine",
+      "kind": "card",
+      "refersTo": "card-vitrine",
+      "description": "Card vitrine (raio 26, borda de 1px, sem sombra) com uma tela montada nas medidas do app e ampliada por zoom; rótulo de exemplo logo abaixo.",
+      "html": "<figure class=\"ds-vitrine\"><div class=\"ds-vitrine__frame\"><div class=\"ds-appbar\"><svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 7h16M4 12h16M4 17h16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg><span class=\"ds-appbar__mark\">VIPA</span><span class=\"ds-appbar__av\">M</span></div><div class=\"ds-appbody\"><p class=\"ds-hello\">Olá, Márcio</p><div class=\"ds-panel\"><p class=\"ds-panel__t\">Como fechou o mês</p><p class=\"ds-brk\"><span>Recebido</span><b style=\"color: var(--green-ink, #178043)\">R$ 4.550,00</b></p><p class=\"ds-brk\"><span>Gastos</span><b style=\"color: var(--red-ink, #C9303A)\">- R$ 1.284,60</b></p></div></div></div><figcaption class=\"ds-note\">Tela de exemplo.</figcaption></figure>",
+      "css": ".ds-vitrine { margin: 0; width: min(100%, 360px); font-family: var(--font, Inter, ui-sans-serif, system-ui, sans-serif); } .ds-vitrine__frame { zoom: 1.12; overflow: hidden; padding-top: 8px; border: 1px solid var(--border, #E4E4E7); border-radius: 26px; background: var(--white, #FFFFFF); color: var(--ink, #111113); font-size: 16px; line-height: 1.4; } .ds-appbar { display: grid; grid-template-columns: 40px 1fr 40px; align-items: center; height: 56px; padding: 0 12px 0 14px; } .ds-appbar__mark { justify-self: center; color: var(--orange, #FF5A1F); font-size: 22px; font-weight: 700; letter-spacing: -0.02em; } .ds-appbar__av { justify-self: end; display: grid; place-items: center; width: 36px; height: 36px; border-radius: 50%; background: #2C5BFF; color: #FFFFFF; font-size: 14px; font-weight: 700; } .ds-appbody { padding: 6px 20px 24px; } .ds-appbody p { margin: 0; } .ds-hello { font-size: 26px; font-weight: 700; letter-spacing: -0.6px; margin-bottom: 14px; } .ds-panel { padding: 18px; border: 1px solid var(--border, #E4E4E7); border-radius: 16px; } .ds-panel__t { margin-bottom: 14px !important; font-size: 19px; font-weight: 700; letter-spacing: -0.3px; } .ds-brk { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding-block: 6px; } .ds-brk span { font-size: 16px; color: var(--support, #5E5E63); } .ds-brk b { font-size: 17px; font-weight: 700; font-variant-numeric: tabular-nums; } .ds-note { margin-top: 14px; font-size: 13px; color: var(--support, #5E5E63); } @media (max-width: 860px) { .ds-vitrine__frame { zoom: 1; } }"
+    },
+    {
+      "name": "Lista com fio",
+      "kind": "custom",
+      "description": "Regras e dúvidas: fio no topo e sob cada linha; no acordeão, a seta vira 180° e a altura abre em 320ms.",
+      "html": "<div class=\"ds-qa\"><details open><summary>Os pais pagam alguma coisa?<svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m6 9.5 6 6 6-6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></summary><p>Não. Responsáveis e alunos usam de graça.</p></details><details><summary>Preciso montar a rota na mão?<svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m6 9.5 6 6 6-6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></summary><p>Não. O VIPA monta a ordem das paradas e a hora de sair.</p></details></div>",
+      "css": ".ds-qa { border-top: 1px solid var(--line, #EDEDF0); font-family: var(--font, Inter, ui-sans-serif, system-ui, sans-serif); color: var(--ink, #111113); } .ds-qa details { border-bottom: 1px solid var(--line, #EDEDF0); } .ds-qa details::details-content { block-size: 0; overflow: clip; transition: block-size 320ms cubic-bezier(.33,1,.68,1), content-visibility 320ms allow-discrete; } .ds-qa details[open]::details-content { block-size: auto; } .ds-qa summary { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 22px; list-style: none; cursor: pointer; font-size: clamp(18px, 1.6vw, 21px); font-weight: 600; letter-spacing: -0.015em; } .ds-qa summary::-webkit-details-marker { display: none; } .ds-qa summary svg { flex: none; color: var(--support, #5E5E63); transition: transform 240ms cubic-bezier(.33,1,.68,1); } .ds-qa details[open] summary svg { transform: rotate(180deg); } .ds-qa summary:focus-visible { outline: 2.5px solid var(--orange, #FF5A1F); outline-offset: 3px; border-radius: 8px; } .ds-qa p { margin: 0; padding-bottom: 22px; max-width: 40em; font-size: 17px; line-height: 1.5; color: var(--support, #5E5E63); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "O app em tamanho de vitrine",
+    "overview": "Este arquivo estende o sistema do aplicativo, `docs/DESIGN.md` (a partir daqui, `../docs/DESIGN.md`). Tudo o que está lá vale no site sem repetição: a paleta, Inter, os raios, o card sem sombra, a escala de movimento, os componentes e as telas travadas do Figma. Aqui fica só o que o site acrescenta ou troca para funcionar como página web: a tipografia de exibição, as cores de texto que passam em contraste na web, a tela do app ampliada, o palco da rota preso à rolagem, as quebras de layout e o foco de teclado. Se os dois discordarem sobre o app, vale o código do app (`lib/theme/`, `lib/ui/`); sobre o site, vale `site/page.html`.\n\nO site não ilustra o app: é feito dele. Cada capítulo mostra uma tela real do VIPA, com as medidas do app, ampliada até virar peça de vitrine, e o card laranja \"Próxima Rota\" abre a página em escala de outdoor. Chão branco, tinta quase preta, laranja contado; a hierarquia vem de tamanho e peso de texto, como no app. O movimento mostra o app fazendo o que promete (a rota inicia, a van anda, o embarque chega à família) e usa o `easeOutCubic` e as durações do app; nada decora.\n\nA densidade é de capítulo largo: um assunto por vez, título grande, respiro vertical generoso e a tela do app como prova. Rejeitado de forma explícita na direção do site: celular flutuando ao lado do texto e grade de três ícones.",
+    "keyCharacteristics": [
+      "Telas do app com os px do app, ampliadas por `zoom`, nunca redesenhadas.",
+      "Display Inter entre 720 e 760, com tracking bem negativo; o app para em 700.",
+      "Laranja sólido só em marca, linha (rota e gráfico) e retorno de interação.",
+      "Degradê laranja só nos cards de destaque e na bolha de chat enviada.",
+      "Sem sombra em card; profundidade por borda de 1px e por tom.",
+      "Toda tela de exemplo leva um rótulo dizendo que é exemplo."
+    ],
+    "rules": [
+      {
+        "name": "A Regra da Subida",
+        "body": "O que entra em cena sobe e aparece. Nada da interface desliza pela lateral; só a van anda de lado, porque é veículo.",
+        "section": "overview"
+      },
+      {
+        "name": "A Regra do Laranja Contado",
+        "body": "Laranja sólido marca, traça linha (rota, gráfico) e responde à interação (foco, hover). Não pinta fundo de seção nem texto de leitura. A direção previa laranja só na marca e na rota; o build o estendeu ao gráfico, como no código do app, e ao retorno de interação, e o build vale.",
+        "section": "colors"
+      },
+      {
+        "name": "A Regra do Gêmeo de Tinta",
+        "body": "Cor de estado que vira texto usa a versão `-ink`; a cor do app fica para ícone, borda, preenchimento e faixa.",
+        "section": "colors"
+      },
+      {
+        "name": "A Regra do Cinza Legível",
+        "body": "Texto pequeno de leitura na web é `support` ou `muted`. O #8A8A8E do app só aparece em título grande apagado, como o passo inativo do palco da rota.",
+        "section": "colors"
+      },
+      {
+        "name": "A Regra do Teto do App",
+        "body": "Pesos de 720 a 760 são do site, e só em display, headline e numerais grandes. Dentro de uma tela do app o teto é 700, como no app.",
+        "section": "typography"
+      },
+      {
+        "name": "A Regra do Número Tabular",
+        "body": "Todo número que muda ou se compara (horário, dinheiro, código, distância) usa algarismos tabulares.",
+        "section": "typography"
+      },
+      {
+        "name": "A Regra do Chão Plano",
+        "body": "Card, botão, moldura e barra nunca têm sombra. Sombra só assenta um objeto 3D no chão; não levanta interface.",
+        "section": "elevation"
+      },
+      {
+        "name": "A Regra do Raio que Cresce Junto",
+        "body": "Peça do app levada à escala de outdoor por medida fluida leva o raio junto, em `clamp`. Peça ampliada por `zoom` já cresce com o raio certo.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do montar toda tela do app com os px do app e ampliar com `zoom` (1,1 a 1,22 acima de 860px, 1 abaixo).",
+      "Do pôr o rótulo de exemplo (13px, `support`) logo abaixo de toda tela com dados de exemplo.",
+      "Do usar `green-ink` e `red-ink` quando cor de estado vira texto, e `support` ou `muted` para texto pequeno de apoio.",
+      "Do usar algarismos tabulares em horário, dinheiro, código e distância.",
+      "Do dar anel de foco laranja de 2,5px, afastado 3px, a tudo que recebe foco; branco sobre superfície laranja.",
+      "Do limitar hover a ponteiro fino; no toque, a resposta é encolher 3% ao apertar.",
+      "Do entrar subindo e aparecendo com `cubic-bezier(.33,1,.68,1)` (o `easeOutCubic` do app) nas durações do app (140, 240, 320ms); tempo longo só na entrada da primeira tela e quando algo percorre um caminho (rota, gráfico, van, contagem de valores).",
+      "Do entregar o estado final, com o palco solto, quando o sistema pede movimento reduzido."
+    ],
+    "donts": [
+      "Don't pôr tela do app dentro de celular flutuante com sombra ou inclinação, nem trocar a prova por grade de três ícones.",
+      "Don't usar laranja sólido como fundo de seção ou em texto de leitura, nem degradê laranja fora dos cards de destaque e da bolha de chat enviada.",
+      "Don't pôr sombra em card, botão, moldura ou barra.",
+      "Don't usar verde, vermelho ou âmbar como decoração; são estado.",
+      "Don't usar #8A8A8E em texto pequeno de leitura.",
+      "Don't usar bounce, paralaxe ou rotação decorativa; a seta de acordeão que vira 180° é do app e fica.",
+      "Don't fazer interface deslizar pela lateral; só a van anda de lado.",
+      "Don't passar de peso 700 dentro de uma tela do app."
+    ]
+  }
+}
